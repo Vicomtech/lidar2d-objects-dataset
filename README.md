@@ -2,6 +2,8 @@
 
 Real, synthetic and hybrid 2D LiDAR scans (SICK TiM571, 572 beams) with beam-wise labels and object poses for six indoor objects, plus their high-resolution 3D meshes used for synthetic dataset generation.
 
+The dataset used in this project is available in the [dataset repository](https://opendatasets.vicomtech.org/di11-lidar2d-objects/4e1e1fb2).
+
 ---
 
 ## Files
