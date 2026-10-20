@@ -99,6 +99,8 @@ Captured with a Scantech TrackScan-P550 optical 3D scanner. STL files, units in 
 | table | 2,173,600 | 1.629 × 0.953 × 0.742 |
 | trash can | 4,521,220 | 0.430 × 0.358 × 0.417 |
 
+Simplified meshes with 0 < H < 0.14 are also included in the dataset.
+
 ### Mesh origin and symmetry centre
 
 The origin of a mesh does not, in general, coincide with the physical symmetry centre of the object. For symmetry-aware pose evaluation, the paper estimates each class's symmetry centre from its mesh:
@@ -129,7 +131,7 @@ poses = [(o["name"], o["position"]["x"], o["position"]["y"], o["orientation"]["y
 
 `hyb_train.json` is about 920 MB; loading it with `json.load` needs several GB of RAM. Use `ijson` to stream it.
 
-## Citation
+## Citation - TODO
 
 ```bibtex
 @article{TODO,
